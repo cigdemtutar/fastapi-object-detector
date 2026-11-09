@@ -1,0 +1,6 @@
+services:
+  api:
+    build: .
+    platform: linux/arm64
+    ports:
+      - "7001:7001"
